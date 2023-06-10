@@ -1,0 +1,6 @@
+Para preparar la pp para subirla a algun servicio de hosting se realizaran los siguientes pasos
+- instalar dotenv
+-luego, en la raiz, crear el archivo .env para establecer las variables de entorno y crear la variable port
+- en el aarchivo app hacer require('dotenv).config();
+-y despues cambiamos la constante port y le ponemos el valor definido en las variables de entorno
+- en el package.json se debe agregar el script "start": "node app.js"
